@@ -1,0 +1,548 @@
+[
+  {
+    "plant1_id": "tomato",
+    "plant2_id": "basil",
+    "type": "companion",
+    "reason": "Basil repels aphids, whitefly and spider mites, and is said to improve tomato flavour."
+  },
+  {
+    "plant1_id": "tomato",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds repel nematodes, whitefly and other soil pests that attack tomato roots."
+  },
+  {
+    "plant1_id": "tomato",
+    "plant2_id": "carrot",
+    "type": "companion",
+    "reason": "Carrots loosen soil around tomato roots and improve soil aeration."
+  },
+  {
+    "plant1_id": "tomato",
+    "plant2_id": "parsley",
+    "type": "companion",
+    "reason": "Parsley attracts predatory insects that feed on tomato pests."
+  },
+  {
+    "plant1_id": "tomato",
+    "plant2_id": "fennel",
+    "type": "incompatible",
+    "reason": "Fennel secretes allelopathic chemicals that inhibit tomato growth significantly."
+  },
+  {
+    "plant1_id": "tomato",
+    "plant2_id": "cabbage",
+    "type": "incompatible",
+    "reason": "Tomatoes and brassicas compete for nutrients and can harbour each other's pests."
+  },
+  {
+    "plant1_id": "tomato",
+    "plant2_id": "corn",
+    "type": "incompatible",
+    "reason": "Both are heavy feeders that compete for nutrients. Corn also shades tomatoes."
+  },
+  {
+    "plant1_id": "basil",
+    "plant2_id": "pepper",
+    "type": "companion",
+    "reason": "Basil repels aphids and spider mites that commonly attack peppers."
+  },
+  {
+    "plant1_id": "basil",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Together they create a powerful pest-deterrent border around the vegetable garden."
+  },
+  {
+    "plant1_id": "basil",
+    "plant2_id": "sage",
+    "type": "incompatible",
+    "reason": "Sage and basil compete for resources and sage can inhibit basil's growth."
+  },
+  {
+    "plant1_id": "carrot",
+    "plant2_id": "onion",
+    "type": "companion",
+    "reason": "Onion scent confuses carrot fly; carrot scent confuses onion fly — mutual protection."
+  },
+  {
+    "plant1_id": "carrot",
+    "plant2_id": "chives",
+    "type": "companion",
+    "reason": "Chives improve the flavour and growth of carrots and deter aphids."
+  },
+  {
+    "plant1_id": "carrot",
+    "plant2_id": "lettuce",
+    "type": "companion",
+    "reason": "Lettuce provides ground cover keeping soil moist for carrot roots."
+  },
+  {
+    "plant1_id": "carrot",
+    "plant2_id": "dill",
+    "type": "incompatible",
+    "reason": "Mature dill inhibits carrot growth through allelopathic root exudates."
+  },
+  {
+    "plant1_id": "french_beans",
+    "plant2_id": "carrot",
+    "type": "companion",
+    "reason": "Beans fix nitrogen that benefits carrots; carrots break up soil for bean roots."
+  },
+  {
+    "plant1_id": "french_beans",
+    "plant2_id": "corn",
+    "type": "companion",
+    "reason": "Three Sisters planting — beans fix nitrogen for corn; corn provides support."
+  },
+  {
+    "plant1_id": "french_beans",
+    "plant2_id": "cucumber",
+    "type": "companion",
+    "reason": "Both are compatible warm-season crops. Beans fix nitrogen that benefits cucumbers."
+  },
+  {
+    "plant1_id": "french_beans",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds deter bean beetles and other bean pests effectively."
+  },
+  {
+    "plant1_id": "french_beans",
+    "plant2_id": "onion",
+    "type": "incompatible",
+    "reason": "Onions (alliums) secrete chemicals that inhibit bean and pea growth."
+  },
+  {
+    "plant1_id": "french_beans",
+    "plant2_id": "garlic",
+    "type": "incompatible",
+    "reason": "Garlic inhibits bean growth through allelopathic root secretions."
+  },
+  {
+    "plant1_id": "long_beans",
+    "plant2_id": "corn",
+    "type": "companion",
+    "reason": "Beans fix nitrogen for corn; corn provides natural climbing support for beans."
+  },
+  {
+    "plant1_id": "long_beans",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds repel bean beetles and soil nematodes."
+  },
+  {
+    "plant1_id": "long_beans",
+    "plant2_id": "onion",
+    "type": "incompatible",
+    "reason": "Onions inhibit bean germination and growth through chemical exudates."
+  },
+  {
+    "plant1_id": "cucumber",
+    "plant2_id": "sunflower",
+    "type": "companion",
+    "reason": "Sunflowers act as a natural trellis for cucumbers and attract pollinators."
+  },
+  {
+    "plant1_id": "cucumber",
+    "plant2_id": "french_beans",
+    "type": "companion",
+    "reason": "Beans fix nitrogen benefiting cucumbers. Both are compatible summer crops."
+  },
+  {
+    "plant1_id": "cucumber",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds repel cucumber beetles and aphids very effectively."
+  },
+  {
+    "plant1_id": "cucumber",
+    "plant2_id": "potato",
+    "type": "incompatible",
+    "reason": "Both attract similar diseases and pests. Potatoes can stunt cucumber growth."
+  },
+  {
+    "plant1_id": "marigold",
+    "plant2_id": "tomato",
+    "type": "companion",
+    "reason": "Marigolds are the ultimate companion — repel nematodes and many flying pests."
+  },
+  {
+    "plant1_id": "marigold",
+    "plant2_id": "pepper",
+    "type": "companion",
+    "reason": "Marigolds repel aphids and spider mites that commonly attack peppers."
+  },
+  {
+    "plant1_id": "marigold",
+    "plant2_id": "brinjal",
+    "type": "companion",
+    "reason": "Marigolds deter flea beetles that are a major pest of brinjal."
+  },
+  {
+    "plant1_id": "mint",
+    "plant2_id": "cabbage",
+    "type": "companion",
+    "reason": "Mint strongly repels cabbage moths, aphids, and ants."
+  },
+  {
+    "plant1_id": "mint",
+    "plant2_id": "tomato",
+    "type": "companion",
+    "reason": "Mint repels aphids and flea beetles. Grow in containers to prevent spreading."
+  },
+  {
+    "plant1_id": "mint",
+    "plant2_id": "rosemary",
+    "type": "incompatible",
+    "reason": "Mint is too aggressive and will compete with and crowd out rosemary."
+  },
+  {
+    "plant1_id": "lettuce",
+    "plant2_id": "radish",
+    "type": "companion",
+    "reason": "Radishes act as trap crops for aphids and loosen soil for lettuce roots."
+  },
+  {
+    "plant1_id": "lettuce",
+    "plant2_id": "chives",
+    "type": "companion",
+    "reason": "Chives deter aphids that commonly attack lettuce."
+  },
+  {
+    "plant1_id": "pumpkin",
+    "plant2_id": "corn",
+    "type": "companion",
+    "reason": "Three Sisters — pumpkin provides ground cover, retains moisture, suppresses weeds."
+  },
+  {
+    "plant1_id": "pumpkin",
+    "plant2_id": "french_beans",
+    "type": "companion",
+    "reason": "Beans fix nitrogen for pumpkins; pumpkin leaves shade bean roots."
+  },
+  {
+    "plant1_id": "pumpkin",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds deter squash beetles and vine borers from attacking pumpkins."
+  },
+  {
+    "plant1_id": "bitter_gourd",
+    "plant2_id": "french_beans",
+    "type": "companion",
+    "reason": "Beans fix nitrogen beneficial for the heavy-feeding bitter gourd vine."
+  },
+  {
+    "plant1_id": "okra",
+    "plant2_id": "basil",
+    "type": "companion",
+    "reason": "Basil deters pests and is said to improve okra vigour and yield."
+  },
+  {
+    "plant1_id": "okra",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds deter nematodes which can be a major problem for okra in Mauritius soils."
+  },
+  {
+    "plant1_id": "cabbage",
+    "plant2_id": "thyme",
+    "type": "companion",
+    "reason": "Thyme strongly repels cabbage worms, whitefly and flea beetles."
+  },
+  {
+    "plant1_id": "cabbage",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds deter cabbage moths and other brassica pests."
+  },
+  {
+    "plant1_id": "cabbage",
+    "plant2_id": "tomato",
+    "type": "incompatible",
+    "reason": "Tomatoes and brassicas compete for nutrients and harbour each other's diseases."
+  },
+  {
+    "plant1_id": "cabbage",
+    "plant2_id": "strawberry",
+    "type": "incompatible",
+    "reason": "Cabbages inhibit strawberry growth and the two compete for soil nutrients."
+  },
+  {
+    "plant1_id": "spinach",
+    "plant2_id": "strawberry",
+    "type": "companion",
+    "reason": "Strawberries and spinach make excellent companions, sharing space efficiently."
+  },
+  {
+    "plant1_id": "spinach",
+    "plant2_id": "lettuce",
+    "type": "companion",
+    "reason": "Both cool-season crops with compatible growing conditions — ideal bed companions."
+  },
+  {
+    "plant1_id": "strawberry",
+    "plant2_id": "thyme",
+    "type": "companion",
+    "reason": "Thyme repels worms and insects that damage strawberry crowns and fruit."
+  },
+  {
+    "plant1_id": "strawberry",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds deter slugs and nematodes that attack strawberry plants."
+  },
+  {
+    "plant1_id": "strawberry",
+    "plant2_id": "fennel",
+    "type": "incompatible",
+    "reason": "Fennel inhibits strawberry growth through allelopathic root chemicals."
+  },
+  {
+    "plant1_id": "sunflower",
+    "plant2_id": "french_beans",
+    "type": "companion",
+    "reason": "Sunflowers provide support for climbing beans and attract pollinators."
+  },
+  {
+    "plant1_id": "sunflower",
+    "plant2_id": "cucumber",
+    "type": "companion",
+    "reason": "Sunflowers act as natural trellis and provide shade for cucumber roots."
+  },
+  {
+    "plant1_id": "sunflower",
+    "plant2_id": "potato",
+    "type": "incompatible",
+    "reason": "Both attract similar fungal diseases. Sunflowers can shade and stunt potato plants."
+  },
+  {
+    "plant1_id": "garlic",
+    "plant2_id": "tomato",
+    "type": "companion",
+    "reason": "Garlic repels spider mites, aphids and other tomato pests."
+  },
+  {
+    "plant1_id": "garlic",
+    "plant2_id": "carrot",
+    "type": "companion",
+    "reason": "Garlic deters carrot fly and other root pests."
+  },
+  {
+    "plant1_id": "garlic",
+    "plant2_id": "lettuce",
+    "type": "companion",
+    "reason": "Garlic repels aphids and slugs that commonly attack lettuce."
+  },
+  {
+    "plant1_id": "garlic",
+    "plant2_id": "beans",
+    "type": "incompatible",
+    "reason": "Garlic inhibits bean growth through allelopathic compounds in the soil."
+  },
+  {
+    "plant1_id": "garlic",
+    "plant2_id": "peas",
+    "type": "incompatible",
+    "reason": "Garlic stunts pea growth. Avoid planting them together."
+  },
+  {
+    "plant1_id": "onion",
+    "plant2_id": "carrot",
+    "type": "companion",
+    "reason": "Classic companion pair. Onion confuses carrot fly; carrot confuses onion fly."
+  },
+  {
+    "plant1_id": "onion",
+    "plant2_id": "lettuce",
+    "type": "companion",
+    "reason": "Onions deter slugs and aphids that attack lettuce."
+  },
+  {
+    "plant1_id": "onion",
+    "plant2_id": "beans",
+    "type": "incompatible",
+    "reason": "Onions inhibit bean growth through chemical root exudates."
+  },
+  {
+    "plant1_id": "onion",
+    "plant2_id": "peas",
+    "type": "incompatible",
+    "reason": "Onions stunt the growth of peas significantly."
+  },
+  {
+    "plant1_id": "chives",
+    "plant2_id": "carrot",
+    "type": "companion",
+    "reason": "Chives repel carrot fly and aphids. Said to improve carrot flavour."
+  },
+  {
+    "plant1_id": "chives",
+    "plant2_id": "tomato",
+    "type": "companion",
+    "reason": "Chives repel aphids and improve tomato health when planted nearby."
+  },
+  {
+    "plant1_id": "chives",
+    "plant2_id": "lettuce",
+    "type": "companion",
+    "reason": "Chives deter aphids that commonly attack lettuce."
+  },
+  {
+    "plant1_id": "chives",
+    "plant2_id": "beans",
+    "type": "incompatible",
+    "reason": "Chives (alliums) inhibit bean growth similar to onions and garlic."
+  },
+  {
+    "plant1_id": "lemongrass",
+    "plant2_id": "basil",
+    "type": "companion",
+    "reason": "Together they create a strongly aromatic barrier that deters many flying insects."
+  },
+  {
+    "plant1_id": "lemongrass",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Both are natural pest deterrents. Excellent combined border planting."
+  },
+  {
+    "plant1_id": "rosemary",
+    "plant2_id": "cabbage",
+    "type": "companion",
+    "reason": "Rosemary strongly repels cabbage moths, bean beetles and carrot fly."
+  },
+  {
+    "plant1_id": "rosemary",
+    "plant2_id": "carrot",
+    "type": "companion",
+    "reason": "Rosemary deters carrot fly and other root pests effectively."
+  },
+  {
+    "plant1_id": "rosemary",
+    "plant2_id": "mint",
+    "type": "incompatible",
+    "reason": "Mint's vigorous spread will overwhelm and crowd out rosemary."
+  },
+  {
+    "plant1_id": "thyme",
+    "plant2_id": "cabbage",
+    "type": "companion",
+    "reason": "Thyme repels cabbage worms, whitefly and flea beetles very effectively."
+  },
+  {
+    "plant1_id": "thyme",
+    "plant2_id": "tomato",
+    "type": "companion",
+    "reason": "Thyme deters tomato hornworm and other tomato pests."
+  },
+  {
+    "plant1_id": "thyme",
+    "plant2_id": "strawberry",
+    "type": "companion",
+    "reason": "Thyme repels worms and insects that attack strawberry fruit and crowns."
+  },
+  {
+    "plant1_id": "parsley",
+    "plant2_id": "tomato",
+    "type": "companion",
+    "reason": "Parsley attracts predatory insects and is said to improve tomato vigour."
+  },
+  {
+    "plant1_id": "parsley",
+    "plant2_id": "carrot",
+    "type": "companion",
+    "reason": "Both are in the carrot family and support similar beneficial insects."
+  },
+  {
+    "plant1_id": "sweet_potato",
+    "plant2_id": "french_beans",
+    "type": "companion",
+    "reason": "Beans fix nitrogen that benefits sweet potato vines growing nearby."
+  },
+  {
+    "plant1_id": "sweet_potato",
+    "plant2_id": "thyme",
+    "type": "companion",
+    "reason": "Thyme can repel some sweet potato vine weevil when planted as a border."
+  },
+  {
+    "plant1_id": "watermelon",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds deter nematodes and beetles from watermelon roots."
+  },
+  {
+    "plant1_id": "watermelon",
+    "plant2_id": "basil",
+    "type": "companion",
+    "reason": "Basil repels aphids and is thought to improve watermelon flavour."
+  },
+  {
+    "plant1_id": "papaya",
+    "plant2_id": "basil",
+    "type": "companion",
+    "reason": "Basil planted around papaya may deter some flies and fruit pests."
+  },
+  {
+    "plant1_id": "passion_fruit",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds planted at base deter nematodes that can attack passion fruit roots."
+  },
+  {
+    "plant1_id": "spring_onion",
+    "plant2_id": "carrot",
+    "type": "companion",
+    "reason": "Spring onion confuses carrot fly through its strong scent."
+  },
+  {
+    "plant1_id": "spring_onion",
+    "plant2_id": "tomato",
+    "type": "companion",
+    "reason": "Spring onions deter aphids and can help suppress soil-borne diseases."
+  },
+  {
+    "plant1_id": "spring_onion",
+    "plant2_id": "beans",
+    "type": "incompatible",
+    "reason": "All alliums inhibit bean and pea growth through root exudates."
+  },
+  {
+    "plant1_id": "corn",
+    "plant2_id": "pumpkin",
+    "type": "companion",
+    "reason": "Three Sisters companion planting. Pumpkin provides ground cover suppressing weeds."
+  },
+  {
+    "plant1_id": "corn",
+    "plant2_id": "long_beans",
+    "type": "companion",
+    "reason": "Corn stalks provide natural support for climbing beans; beans fix nitrogen for corn."
+  },
+  {
+    "plant1_id": "brinjal",
+    "plant2_id": "basil",
+    "type": "companion",
+    "reason": "Basil repels aphids and spider mites that commonly attack brinjal."
+  },
+  {
+    "plant1_id": "brinjal",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds deter flea beetles, the most common brinjal pest in Mauritius."
+  },
+  {
+    "plant1_id": "chili",
+    "plant2_id": "basil",
+    "type": "companion",
+    "reason": "Basil repels aphids and spider mites from chili plants."
+  },
+  {
+    "plant1_id": "chili",
+    "plant2_id": "marigold",
+    "type": "companion",
+    "reason": "Marigolds deter pests and nematodes that affect chili roots."
+  }
+]

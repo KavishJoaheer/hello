@@ -1,0 +1,47 @@
+{
+  "north": {
+    "avg_temp_summer_c": 29,
+    "avg_temp_winter_c": 22,
+    "avg_rainfall_mm_annual": 1200,
+    "elevation_m": 30,
+    "soil_type": "loamy",
+    "description": "Warm, relatively dry coastal area. Good for tropical fruits and warm-season vegetables.",
+    "best_months_for_planting": [3, 4, 5, 9, 10]
+  },
+  "south": {
+    "avg_temp_summer_c": 26,
+    "avg_temp_winter_c": 19,
+    "avg_rainfall_mm_annual": 2200,
+    "elevation_m": 200,
+    "soil_type": "clay",
+    "description": "Cooler and wetter than north. Excellent for cool-season vegetables and tea.",
+    "best_months_for_planting": [4, 5, 6, 7, 8]
+  },
+  "east": {
+    "avg_temp_summer_c": 27,
+    "avg_temp_winter_c": 21,
+    "avg_rainfall_mm_annual": 2000,
+    "elevation_m": 80,
+    "soil_type": "sandy_loam",
+    "description": "Windward side with regular rainfall. Good drainage needed. Suits most vegetables.",
+    "best_months_for_planting": [4, 5, 6, 9, 10]
+  },
+  "west": {
+    "avg_temp_summer_c": 31,
+    "avg_temp_winter_c": 24,
+    "avg_rainfall_mm_annual": 850,
+    "elevation_m": 25,
+    "soil_type": "sandy",
+    "description": "Driest and warmest region. Best for drought-tolerant crops and tropical fruits.",
+    "best_months_for_planting": [4, 5, 9, 10, 11]
+  },
+  "central": {
+    "avg_temp_summer_c": 24,
+    "avg_temp_winter_c": 16,
+    "avg_rainfall_mm_annual": 2800,
+    "elevation_m": 580,
+    "soil_type": "loamy",
+    "description": "Central plateau — coolest and wettest. Ideal for temperate vegetables year-round.",
+    "best_months_for_planting": [3, 4, 5, 6, 7, 8, 9]
+  }
+}

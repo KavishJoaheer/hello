@@ -1,0 +1,60 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // -----------------------------------------------------------------------
+    // Helper functions
+    // -----------------------------------------------------------------------
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isValidImage() {
+      return request.resource.contentType.matches('image/.*')
+        && request.resource.size < 10 * 1024 * 1024; // max 10 MB
+    }
+
+    // -----------------------------------------------------------------------
+    // Garden photos — users can upload/read their own photos
+    // Path: garden_photos/{userId}/{photoId}
+    // -----------------------------------------------------------------------
+    match /garden_photos/{userId}/{photoId} {
+      allow read: if isOwner(userId);
+      allow create: if isOwner(userId) && isValidImage();
+      allow delete: if isOwner(userId);
+    }
+
+    // -----------------------------------------------------------------------
+    // Profile photos
+    // Path: profile_photos/{userId}/{fileName}
+    // -----------------------------------------------------------------------
+    match /profile_photos/{userId}/{fileName} {
+      allow read: if isOwner(userId);
+      allow create: if isOwner(userId) && isValidImage();
+      allow update: if isOwner(userId) && isValidImage();
+      allow delete: if isOwner(userId);
+    }
+
+    // -----------------------------------------------------------------------
+    // Plant images (read-only for all authenticated users)
+    // Path: plant_images/{plantId}/{fileName}
+    // -----------------------------------------------------------------------
+    match /plant_images/{plantId}/{fileName} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Written by admin/seed script only
+    }
+
+    // -----------------------------------------------------------------------
+    // Deny everything else
+    // -----------------------------------------------------------------------
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

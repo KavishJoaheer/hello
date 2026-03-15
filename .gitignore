@@ -1,0 +1,21 @@
+# Exclude .claude folder (AI/editor local config)
+.claude/
+
+# IDE
+.idea/
+
+# Python
+gardnx_backend/venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# Firebase / Google credentials (never commit)
+firebase/credentials.json
+gardnx_backend/firebase-credentials.json
+**/google-services.json
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,2523 @@
+[
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "category": "vegetable",
+    "description": "One of the most popular vegetables in Mauritius. Thrives in warm weather and produces abundantly from winter to summer.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 18,
+      "max_temp_c": 35,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 60,
+      "row_spacing_cm": 90,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        3,
+        4,
+        8,
+        9,
+        10
+      ],
+      "transplant_months": [
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "harvest_months": [
+        6,
+        7,
+        8,
+        11,
+        12,
+        1
+      ],
+      "days_to_maturity": 75,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "basil",
+      "marigold",
+      "carrot",
+      "parsley"
+    ],
+    "incompatible_plant_ids": [
+      "fennel",
+      "cabbage",
+      "broccoli"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_south",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "brinjal",
+    "name": "Brinjal (Eggplant)",
+    "scientific_name": "Solanum melongena",
+    "category": "vegetable",
+    "description": "A warm-season crop that thrives in the Mauritius summer heat. Popular in local cuisine.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 22,
+      "max_temp_c": 36,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 60,
+      "row_spacing_cm": 75,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "transplant_months": [
+        10,
+        11,
+        12,
+        1
+      ],
+      "harvest_months": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "days_to_maturity": 90,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "basil",
+      "marigold",
+      "pepper"
+    ],
+    "incompatible_plant_ids": [
+      "fennel"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "chili",
+    "name": "Chili Pepper",
+    "scientific_name": "Capsicum annuum",
+    "category": "vegetable",
+    "description": "A Mauritius staple in every household garden. Grows well year-round in warm conditions.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 20,
+      "max_temp_c": 38,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 45,
+      "row_spacing_cm": 60,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        11,
+        2,
+        3
+      ],
+      "transplant_months": [
+        10,
+        11,
+        12,
+        3,
+        4
+      ],
+      "harvest_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "days_to_maturity": 90,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "basil",
+      "marigold",
+      "carrot"
+    ],
+    "incompatible_plant_ids": [
+      "fennel"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_south",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "scientific_name": "Cucumis sativus",
+    "category": "vegetable",
+    "description": "Fast-growing vine that loves the Mauritius summer heat. Requires a trellis or support.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 22,
+      "max_temp_c": 38,
+      "sun_requirement": "full_sun",
+      "water_needs": "high",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 60,
+      "row_spacing_cm": 90,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        11,
+        2,
+        3
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "days_to_maturity": 55,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "beans",
+      "marigold",
+      "sunflower"
+    ],
+    "incompatible_plant_ids": [
+      "potato"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "bitter_gourd",
+    "name": "Bitter Gourd",
+    "scientific_name": "Momordica charantia",
+    "category": "vegetable",
+    "description": "Extremely popular in Mauritian cuisine. Thrives in tropical heat on a trellis or fence.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 24,
+      "max_temp_c": 38,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 90,
+      "row_spacing_cm": 120,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        11
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "days_to_maturity": 60,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "beans",
+      "corn"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "ridge_gourd",
+    "name": "Ridge Gourd",
+    "scientific_name": "Luffa acutangula",
+    "category": "vegetable",
+    "description": "Popular local vegetable grown on trellises. Also used as loofah when dried.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 24,
+      "max_temp_c": 38,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 90,
+      "row_spacing_cm": 120,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        11
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "days_to_maturity": 65,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "beans",
+      "corn"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "scientific_name": "Cucurbita moschata",
+    "category": "vegetable",
+    "description": "Space-demanding but highly productive. Grows well in most Mauritius regions.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 18,
+      "max_temp_c": 35,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 120,
+      "row_spacing_cm": 180,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        2,
+        3
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        12,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "days_to_maturity": 100,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "beans",
+      "corn",
+      "marigold"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_south",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "cabbage",
+    "name": "Cabbage",
+    "scientific_name": "Brassica oleracea var. capitata",
+    "category": "vegetable",
+    "description": "A cool-season crop best grown during Mauritius winter in the central plateau or south.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 10,
+      "max_temp_c": 24,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "clay_loam",
+        "rich"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 45,
+      "row_spacing_cm": 60,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "transplant_months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "harvest_months": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "days_to_maturity": 90,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "mint",
+      "thyme",
+      "marigold"
+    ],
+    "incompatible_plant_ids": [
+      "tomato",
+      "strawberry"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_south",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "scientific_name": "Lactuca sativa",
+    "category": "vegetable",
+    "description": "Fast-growing cool-season green. Best grown in Mauritius winter, especially in higher regions.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 10,
+      "max_temp_c": 24,
+      "sun_requirement": "partial_shade",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "rich",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 25,
+      "row_spacing_cm": 30,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "days_to_maturity": 50,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "carrot",
+      "radish",
+      "chives"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_south",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "scientific_name": "Spinacia oleracea",
+    "category": "vegetable",
+    "description": "Nutritious cool-season green. Grows quickly in Mauritius winter months.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 10,
+      "max_temp_c": 24,
+      "sun_requirement": "partial_shade",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "rich"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 20,
+      "row_spacing_cm": 25,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "days_to_maturity": 40,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "strawberry",
+      "peas"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_south",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "french_beans",
+    "name": "French Beans",
+    "scientific_name": "Phaseolus vulgaris",
+    "category": "vegetable",
+    "description": "Quick-growing legume that fixes nitrogen in the soil. Very popular in Mauritius.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 16,
+      "max_temp_c": 30,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 15,
+      "row_spacing_cm": 45,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        10
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        5,
+        6,
+        7,
+        10,
+        11,
+        12
+      ],
+      "days_to_maturity": 55,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "carrot",
+      "corn",
+      "cucumber",
+      "marigold"
+    ],
+    "incompatible_plant_ids": [
+      "onion",
+      "garlic",
+      "fennel"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_south",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "long_beans",
+    "name": "Long Beans (Gros Pois)",
+    "scientific_name": "Vigna unguiculata subsp. sesquipedalis",
+    "category": "vegetable",
+    "description": "Heat-tolerant bean that thrives in Mauritius summer. Needs trellis. Very productive.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 22,
+      "max_temp_c": 38,
+      "sun_requirement": "full_sun",
+      "water_needs": "low",
+      "suitable_soils": [
+        "loamy",
+        "sandy",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 30,
+      "row_spacing_cm": 60,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "days_to_maturity": 65,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "corn",
+      "marigold"
+    ],
+    "incompatible_plant_ids": [
+      "onion",
+      "garlic"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "okra",
+    "name": "Okra (Lalo)",
+    "scientific_name": "Abelmoschus esculentus",
+    "category": "vegetable",
+    "description": "A Mauritius staple. Extremely heat-tolerant and produces abundantly in summer.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 24,
+      "max_temp_c": 40,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 45,
+      "row_spacing_cm": 60,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "days_to_maturity": 55,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "basil",
+      "marigold"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "sweet_potato",
+    "name": "Sweet Potato (Patate Douce)",
+    "scientific_name": "Ipomoea batatas",
+    "category": "vegetable",
+    "description": "Easy-to-grow root vegetable that spreads as ground cover. Very low maintenance.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 20,
+      "max_temp_c": 35,
+      "sun_requirement": "full_sun",
+      "water_needs": "low",
+      "suitable_soils": [
+        "sandy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 30,
+      "row_spacing_cm": 90,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        10,
+        11,
+        12,
+        1
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "days_to_maturity": 120,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "beans",
+      "thyme"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "spring_onion",
+    "name": "Spring Onion",
+    "scientific_name": "Allium fistulosum",
+    "category": "vegetable",
+    "description": "Fast-growing essential herb/vegetable in Mauritius cooking. Grows in both seasons.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 15,
+      "max_temp_c": 30,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "rich",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 10,
+      "row_spacing_cm": 20,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "days_to_maturity": 50,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "carrot",
+      "tomato"
+    ],
+    "incompatible_plant_ids": [
+      "beans",
+      "peas"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_south",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "radish",
+    "name": "Radish",
+    "scientific_name": "Raphanus sativus",
+    "category": "vegetable",
+    "description": "One of the fastest vegetables to grow. Ready in just 3-4 weeks. Great for beginners.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 10,
+      "max_temp_c": 24,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 8,
+      "row_spacing_cm": 20,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "days_to_maturity": 28,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "lettuce",
+      "carrot",
+      "spinach"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_south",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "corn",
+    "name": "Corn (Maize)",
+    "scientific_name": "Zea mays",
+    "category": "vegetable",
+    "description": "Tall, space-efficient when grown in rows. Part of the Three Sisters companion planting group.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 20,
+      "max_temp_c": 35,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "well_drained",
+        "rich"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 30,
+      "row_spacing_cm": 75,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        11,
+        2,
+        3
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        12,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "days_to_maturity": 90,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "beans",
+      "pumpkin",
+      "cucumber"
+    ],
+    "incompatible_plant_ids": [
+      "tomato"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "basil",
+    "name": "Basil",
+    "scientific_name": "Ocimum basilicum",
+    "category": "herb",
+    "description": "Essential herb in Mauritian and Mediterranean cooking. Repels pests when grown near tomatoes.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 18,
+      "max_temp_c": 35,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "well_drained",
+        "rich"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 25,
+      "row_spacing_cm": 30,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        11,
+        2,
+        3,
+        4
+      ],
+      "transplant_months": [
+        10,
+        11,
+        12,
+        3,
+        4,
+        5
+      ],
+      "harvest_months": [
+        12,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "days_to_maturity": 50,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "tomato",
+      "pepper",
+      "marigold"
+    ],
+    "incompatible_plant_ids": [
+      "sage"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_south",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "coriander",
+    "name": "Coriander (Dhania)",
+    "scientific_name": "Coriandrum sativum",
+    "category": "herb",
+    "description": "Cornerstone of Mauritian cuisine. Best grown in cooler months in shaded spots.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 14,
+      "max_temp_c": 26,
+      "sun_requirement": "partial_shade",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 15,
+      "row_spacing_cm": 20,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "days_to_maturity": 45,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "spinach",
+      "lettuce",
+      "carrot"
+    ],
+    "incompatible_plant_ids": [
+      "fennel"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_south",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "scientific_name": "Mentha spp.",
+    "category": "herb",
+    "description": "Vigorous perennial herb. Grow in containers to control spreading. Used widely in Mauritian cooking.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 15,
+      "max_temp_c": 30,
+      "sun_requirement": "partial_shade",
+      "water_needs": "high",
+      "suitable_soils": [
+        "loamy",
+        "moist",
+        "rich"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 30,
+      "row_spacing_cm": 40,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "transplant_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "harvest_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "days_to_maturity": 60,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "cabbage",
+      "tomato",
+      "peas"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_south",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "thyme",
+    "name": "Thyme",
+    "scientific_name": "Thymus vulgaris",
+    "category": "herb",
+    "description": "Drought-tolerant perennial herb. Excellent companion plant and insect repellent.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 15,
+      "max_temp_c": 30,
+      "sun_requirement": "full_sun",
+      "water_needs": "low",
+      "suitable_soils": [
+        "sandy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 20,
+      "row_spacing_cm": 25,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "transplant_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "harvest_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "days_to_maturity": 75,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "cabbage",
+      "tomato",
+      "eggplant"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_south",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "rosemary",
+    "name": "Rosemary",
+    "scientific_name": "Salvia rosmarinus",
+    "category": "herb",
+    "description": "Mediterranean herb that adapts well to Mauritius dry/warm coastal areas.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 15,
+      "max_temp_c": 32,
+      "sun_requirement": "full_sun",
+      "water_needs": "low",
+      "suitable_soils": [
+        "sandy",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 45,
+      "row_spacing_cm": 60,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "transplant_months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "harvest_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "days_to_maturity": 90,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "cabbage",
+      "beans",
+      "carrot"
+    ],
+    "incompatible_plant_ids": [
+      "mint"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "parsley",
+    "name": "Parsley",
+    "scientific_name": "Petroselinum crispum",
+    "category": "herb",
+    "description": "Slow to germinate but very productive biennial. Best in Mauritius winter.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 14,
+      "max_temp_c": 26,
+      "sun_requirement": "partial_shade",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "rich",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 20,
+      "row_spacing_cm": 25,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transplant_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "harvest_months": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "days_to_maturity": 80,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "tomato",
+      "carrot",
+      "asparagus"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_south",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "lemongrass",
+    "name": "Lemongrass",
+    "scientific_name": "Cymbopogon citratus",
+    "category": "herb",
+    "description": "Tropical grass herb used widely in Mauritian teas and cooking. Repels mosquitoes.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 22,
+      "max_temp_c": 38,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 60,
+      "row_spacing_cm": 90,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "transplant_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "harvest_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "days_to_maturity": 120,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "basil",
+      "marigold"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "chives",
+    "name": "Chives",
+    "scientific_name": "Allium schoenoprasum",
+    "category": "herb",
+    "description": "Mild onion-flavored herb. Easy to grow in pots or borders. Deters aphids.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 15,
+      "max_temp_c": 30,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "rich",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 15,
+      "row_spacing_cm": 20,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "transplant_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "harvest_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "days_to_maturity": 60,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "carrot",
+      "tomato",
+      "lettuce"
+    ],
+    "incompatible_plant_ids": [
+      "beans",
+      "peas"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_south",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "papaya",
+    "name": "Papaya",
+    "scientific_name": "Carica papaya",
+    "category": "fruit",
+    "description": "Very fast-growing tropical fruit tree. Can produce fruit within 7-9 months from seed.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 21,
+      "max_temp_c": 38,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 250,
+      "row_spacing_cm": 300,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "transplant_months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "harvest_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "days_to_maturity": 210,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "basil",
+      "lemongrass"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple",
+    "scientific_name": "Ananas comosus",
+    "category": "fruit",
+    "description": "Mauritius pineapples are world-famous. Plant crowns or slips. Takes 18 months to first harvest.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 20,
+      "max_temp_c": 35,
+      "sun_requirement": "full_sun",
+      "water_needs": "low",
+      "suitable_soils": [
+        "sandy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 60,
+      "row_spacing_cm": 90,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "days_to_maturity": 540,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "beans"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "passion_fruit",
+    "name": "Passion Fruit",
+    "scientific_name": "Passiflora edulis",
+    "category": "fruit",
+    "description": "Vigorous climbing vine producing delicious fruit. Needs a strong trellis or fence.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 18,
+      "max_temp_c": 32,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 300,
+      "row_spacing_cm": 350,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "transplant_months": [
+        10,
+        11,
+        12,
+        1
+      ],
+      "harvest_months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "days_to_maturity": 210,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "marigold"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "watermelon",
+    "name": "Watermelon",
+    "scientific_name": "Citrullus lanatus",
+    "category": "fruit",
+    "description": "Space-hungry but rewarding. Best grown in the warm north and west of Mauritius.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 25,
+      "max_temp_c": 38,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 150,
+      "row_spacing_cm": 200,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        10,
+        11,
+        12
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "days_to_maturity": 85,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "marigold",
+      "basil"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_west"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "scientific_name": "Fragaria x ananassa",
+    "category": "fruit",
+    "description": "Grows well in Mauritius winter in the cooler central and southern regions.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 12,
+      "max_temp_c": 26,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 30,
+      "row_spacing_cm": 40,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        4,
+        5,
+        6
+      ],
+      "transplant_months": [
+        5,
+        6,
+        7
+      ],
+      "harvest_months": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "days_to_maturity": 120,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "spinach",
+      "thyme",
+      "marigold"
+    ],
+    "incompatible_plant_ids": [
+      "fennel",
+      "cabbage"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_south",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "marigold",
+    "name": "Marigold",
+    "scientific_name": "Tagetes spp.",
+    "category": "flower",
+    "description": "The ultimate companion plant. Repels nematodes, aphids and whitefly. Grows anywhere.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 15,
+      "max_temp_c": 35,
+      "sun_requirement": "full_sun",
+      "water_needs": "low",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 20,
+      "row_spacing_cm": 25,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        10
+      ],
+      "transplant_months": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "harvest_months": [
+        6,
+        7,
+        8,
+        11,
+        12,
+        1,
+        2
+      ],
+      "days_to_maturity": 55,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "tomato",
+      "pepper",
+      "basil",
+      "carrot",
+      "cucumber",
+      "beans"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_south",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "scientific_name": "Helianthus annuus",
+    "category": "flower",
+    "description": "Fast-growing annual that attracts pollinators. Can be grown as trellis for climbing plants.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 18,
+      "max_temp_c": 38,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 45,
+      "row_spacing_cm": 60,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        11,
+        3,
+        4
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        12,
+        1,
+        2,
+        6,
+        7
+      ],
+      "days_to_maturity": 80,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "cucumber",
+      "beans",
+      "marigold"
+    ],
+    "incompatible_plant_ids": [
+      "potato"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "zinnia",
+    "name": "Zinnia",
+    "scientific_name": "Zinnia elegans",
+    "category": "flower",
+    "description": "Colorful, heat-loving annual. Excellent pollinator attractant. Easy for beginners.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 18,
+      "max_temp_c": 38,
+      "sun_requirement": "full_sun",
+      "water_needs": "low",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 25,
+      "row_spacing_cm": 30,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        11,
+        2,
+        3
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "days_to_maturity": 65,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "marigold",
+      "tomato"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "bougainvillea",
+    "name": "Bougainvillea",
+    "scientific_name": "Bougainvillea spp.",
+    "category": "flower",
+    "description": "Iconic Mauritius ornamental climber. Almost no care needed once established.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 18,
+      "max_temp_c": 40,
+      "sun_requirement": "full_sun",
+      "water_needs": "low",
+      "suitable_soils": [
+        "sandy",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 300,
+      "row_spacing_cm": 400,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "transplant_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "harvest_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "days_to_maturity": 365,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_east",
+      "mauritius_west"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "hibiscus",
+    "name": "Hibiscus",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "category": "flower",
+    "description": "National flower of Mauritius. Tropical perennial flowering shrub. Attracts butterflies.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 18,
+      "max_temp_c": 38,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 150,
+      "row_spacing_cm": 200,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        9,
+        10,
+        11,
+        2,
+        3
+      ],
+      "transplant_months": [
+        10,
+        11,
+        12,
+        3,
+        4
+      ],
+      "harvest_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "days_to_maturity": 180,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "marigold",
+      "basil"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_north",
+      "mauritius_south",
+      "mauritius_east",
+      "mauritius_west",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "taro",
+    "name": "Taro (Dasheen)",
+    "scientific_name": "Colocasia esculenta",
+    "category": "vegetable",
+    "description": "Traditional Mauritian staple (songe). Grown in wet, low-lying areas. Both leaves and tubers used.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 20,
+      "max_temp_c": 35,
+      "sun_requirement": "partial_shade",
+      "water_needs": "high",
+      "suitable_soils": [
+        "loamy",
+        "clay_loam",
+        "moist"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 60,
+      "row_spacing_cm": 90,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "days_to_maturity": 210,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "beans"
+    ],
+    "incompatible_plant_ids": [],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_east",
+      "mauritius_south",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "scientific_name": "Daucus carota",
+    "category": "vegetable",
+    "description": "Root vegetable best grown in Mauritius winter in loose, deep soil.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 10,
+      "max_temp_c": 24,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "sandy_loam",
+        "loamy",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 8,
+      "row_spacing_cm": 30,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "days_to_maturity": 80,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "tomato",
+      "lettuce",
+      "onion",
+      "chives"
+    ],
+    "incompatible_plant_ids": [
+      "dill"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_south",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "onion",
+    "name": "Onion",
+    "scientific_name": "Allium cepa",
+    "category": "vegetable",
+    "description": "Essential kitchen vegetable grown in Mauritius winter. Long growing season.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 10,
+      "max_temp_c": 24,
+      "sun_requirement": "full_sun",
+      "water_needs": "medium",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 15,
+      "row_spacing_cm": 30,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "transplant_months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "harvest_months": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "days_to_maturity": 120,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "carrot",
+      "lettuce",
+      "chamomile"
+    ],
+    "incompatible_plant_ids": [
+      "beans",
+      "peas"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_south",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "scientific_name": "Allium sativum",
+    "category": "vegetable",
+    "description": "Plant individual cloves in winter. Ready to harvest when tops dry. Great pest deterrent.",
+    "image_url": null,
+    "conditions": {
+      "min_temp_c": 10,
+      "max_temp_c": 24,
+      "sun_requirement": "full_sun",
+      "water_needs": "low",
+      "suitable_soils": [
+        "loamy",
+        "sandy_loam",
+        "well_drained"
+      ],
+      "min_humidity": 50.0,
+      "max_humidity": 90.0
+    },
+    "spacing": {
+      "plant_spacing_cm": 15,
+      "row_spacing_cm": 25,
+      "grid_cells_required": 1
+    },
+    "timing": {
+      "sow_months": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "transplant_months": [],
+      "harvest_months": [
+        9,
+        10,
+        11
+      ],
+      "days_to_maturity": 150,
+      "days_to_transplant": 14
+    },
+    "companion_plant_ids": [
+      "tomato",
+      "carrot",
+      "lettuce"
+    ],
+    "incompatible_plant_ids": [
+      "beans",
+      "peas"
+    ],
+    "suitability_score": 0.85,
+    "tags": [
+      "mauritius_south",
+      "mauritius_central"
+    ],
+    "is_native": false,
+    "difficulty_level": "easy"
+  }
+]
