@@ -27,10 +27,10 @@ class PlantPlacement {
       PlantPlacement(
         id: json['id'] as String? ??
             '${json['plant_id']}_${json['start_row']}_${json['start_col']}',
-        plantId: json['plant_id'] as String,
+        plantId: json['plant_id'] as String? ?? '',
         plantName: json['plant_name'] as String? ?? '',
-        startRow: json['start_row'] as int,
-        startCol: json['start_col'] as int,
+        startRow: (json['start_row'] as int?) ?? 0,
+        startCol: (json['start_col'] as int?) ?? 0,
         rowSpan: json['row_span'] as int? ?? 1,
         colSpan: json['col_span'] as int? ?? 1,
         count: json['count'] as int? ?? 1,

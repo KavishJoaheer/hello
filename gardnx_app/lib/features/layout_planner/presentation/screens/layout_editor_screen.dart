@@ -76,11 +76,12 @@ class _LayoutEditorScreenState extends ConsumerState<LayoutEditorScreen> {
         season: widget.season,
       );
       ref.read(layoutNotifierProvider.notifier).setLayout(layout);
-    } catch (_) {
+    } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-              content: Text('Could not auto-generate. Try adding plants manually.')),
+          SnackBar(
+              content: Text('Could not auto-generate: $e'),
+              duration: const Duration(seconds: 10)),
         );
       }
     } finally {
