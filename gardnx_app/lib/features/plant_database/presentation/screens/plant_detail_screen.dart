@@ -84,7 +84,20 @@ class _PlantDetailBody extends ConsumerWidget {
             flexibleSpace: FlexibleSpaceBar(
               title: Text(plant.name),
               background: plant.imageUrl != null
-                  ? Image.network(plant.imageUrl!, fit: BoxFit.cover)
+                  ? Image.network(
+                      plant.imageUrl!,
+                      fit: BoxFit.cover,
+                      headers: const {
+                        'User-Agent':
+                            'GardNx/1.0 (Android; garden planner app)',
+                      },
+                      errorBuilder: (_, __, ___) => Container(
+                        color: colorScheme.primaryContainer,
+                        child: Icon(Icons.local_florist,
+                            size: 80,
+                            color: colorScheme.primary.withOpacity(0.5)),
+                      ),
+                    )
                   : Container(
                       color: colorScheme.primaryContainer,
                       child: Icon(Icons.local_florist,

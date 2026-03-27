@@ -73,6 +73,10 @@ class PlantCard extends StatelessWidget {
                   ? Image.network(
                       plant.imageUrl!,
                       fit: BoxFit.cover,
+                      headers: const {
+                        'User-Agent':
+                            'GardNx/1.0 (Android; garden planner app)',
+                      },
                       errorBuilder: (_, __, ___) =>
                           _PlaceholderImage(plant: plant),
                     )
