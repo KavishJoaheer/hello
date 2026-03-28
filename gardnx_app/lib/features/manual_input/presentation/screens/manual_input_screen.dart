@@ -45,6 +45,10 @@ class _ManualInputScreenState extends ConsumerState<ManualInputScreen> {
           _bedCounter++;
           notifier.updateBed(bed);
         }
+        // Beds came from AI analysis — skip the drawing step and go
+        // straight to recommendations so the user doesn't have to
+        // figure out the "Done" button.
+        _onDone();
       }
     });
   }
