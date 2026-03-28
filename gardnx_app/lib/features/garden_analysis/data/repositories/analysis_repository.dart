@@ -58,7 +58,14 @@ class AnalysisRepository {
         );
       }
 
-      return GardenPhoto.fromJson(data);
+      // Preserve the local file path so the result screen can display
+      // the photo using Image.file. The backend only returns a relative
+      // imageUrl (/api/v1/analysis/photo/{id}) which Image.network
+      // cannot load as-is.
+      return GardenPhoto.fromJson({
+        ...data,
+        'localPath': imageFile.path,
+      });
     } on DioException catch (e) {
       throw UploadException(
         message: e.response?.data?['message'] as String? ??
